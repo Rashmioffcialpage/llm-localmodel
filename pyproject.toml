@@ -1,0 +1,21 @@
+[project]
+name = "llm-localmodel"
+version = "0.1.0"
+description = "LLM plugin for running local Hugging Face models, no API key required"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "llm",
+    "torch",
+    "transformers",
+]
+
+[project.entry-points.llm]
+localmodel = "llm_localmodel"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["llm_localmodel*"]
