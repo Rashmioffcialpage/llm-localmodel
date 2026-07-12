@@ -2,9 +2,7 @@
 
 A plugin for Simon Willison's [`llm`](https://llm.datasette.io/) CLI that
 runs a real local Hugging Face model instead of calling a paid hosted API
-— a re-implementation of
-[simonw/llm-meta-ai](https://github.com/simonw/llm-meta-ai) (an `llm`
-plugin for Meta's hosted AI API), backed by `Qwen/Qwen2.5-0.5B-Instruct`
+(an `llm` plugin for Meta's hosted AI API), backed by `Qwen/Qwen2.5-0.5B-Instruct`
 running on your own machine. Same plugin architecture (model registration,
 `max_tokens`/`temperature` options, streaming), no API key, no rate
 limits, no bill. See [DESIGN.md](DESIGN.md) for why this swap was made
