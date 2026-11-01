@@ -7,8 +7,6 @@ plugin architecture (model registration, `max_tokens`/`temperature`
 options, streaming), no API key, no rate limits, no bill. See
 [DESIGN.md](DESIGN.md) for why this swap was made and what it costs.
 
-*Inspired by [simonw/llm-meta-ai](https://github.com/simonw/llm-meta-ai) (an `llm` plugin for Meta's hosted AI API).*
-
 ## Installation
 
 ```bash
